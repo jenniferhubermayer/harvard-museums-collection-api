@@ -1,0 +1,127 @@
+/* GENERAL STYLES */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin: 30px 30px 60px 30px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+header a{
+    width: 25%;
+    min-width: 300px;
+}
+
+main{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* SEARCH, SELECT AND OPTIONS */
+
+header fieldset{
+    width: 70%;
+}
+
+header fieldset input{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+fieldset{
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+input, select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select{
+    background-color: unset;
+    border: none;
+}
+
+/* SEARCH COUNT INFO */
+
+#search-count{
+    width: 100%;
+    text-align: center;
+    color: lightgray;
+}
+
+/* WRAPPER FOR ARTWORK ELEMENTS */
+#collection-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+#collection-wrapper a{
+    width: 23%;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+}
+
+/* ARTWORK STYLING */
+img{
+    width: 100%;
+}
+
+#placeholder-image{
+    height: 50vh;
+    width: 100%;
+    background-image: url(/assets/img/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+
+.classification{
+    color: lightgray;
+}
+
+/* SHOW MORE BUTTON */
+
+#show-more-button{
+    width: 100%;
+    text-align: center;
+}
+
+#show-more-button button{
+    align-self: center;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
