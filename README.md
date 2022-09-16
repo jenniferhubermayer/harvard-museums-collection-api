@@ -42,7 +42,7 @@ The search function AND the filter options work.
 
 ### Links
 
-- Solution URL: [https://github.com/jenniferhubermayer/xxx](https://github.com/jenniferhubermayer/xxx)
+- Solution URL: [https://github.com/jenniferhubermayer/harvard-museums-collection-api](https://github.com/jenniferhubermayer/harvard-museums-collection-api)
 
 ## My process
 
